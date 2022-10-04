@@ -8,6 +8,14 @@
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="-1" />
  <style>
+ body {
+  background-color: black;
+  color: white;
+}
+.light-mode {
+ background-color: white;
+ color: black;
+}
   .resizable {
      position: relative;
      align-items: center;
@@ -1141,6 +1149,12 @@ function onelement7() {
  document.onmouseup = null;
  document.onmousemove = null;
  }
+}
+</script>
+<script>
+function lights() {
+ var element = document.body;
+ element.classList.toggle("light-mode");
 }
 </script>
 </body>
