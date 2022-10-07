@@ -2,8 +2,6 @@ body {
   background-color: black;
   color: white;
   border: 3px solid white;
-  padding-left: 71px;
-  padding-right: 71px;
 }
 .light-mode {
  background-color: white;
@@ -56,6 +54,4 @@ body {
      z-index: 12;
      background-color: #000000;
      color: #fff;
-     padding-left: 71px;
-     padding-right: 71px;
   }
