@@ -52,8 +52,6 @@
  resizer.addEventListener('mousedown', mouseDownHandler);
  });
 });
-</script>
-<script>
  var PADDING = 60;
  var rect;
  var viewport = {
@@ -108,8 +106,6 @@
  resizer.addEventListener('mousedown', mouseDownHandler);
  });
 });
-</script>
-<script>
  var PADDING = 60;
  var rect;
  var viewport = {
@@ -164,8 +160,6 @@
  resizer.addEventListener('mousedown', mouseDownHandler);
  });
 });
-</script>
-<script>
  var PADDING = 60;
  var rect;
  var viewport = {
@@ -220,8 +214,6 @@
  resizer.addEventListener('mousedown', mouseDownHandler);
  });
 });
-</script>
-<script>
  var PADDING = 60;
  var rect;
  var viewport = {
@@ -276,8 +268,6 @@
  resizer.addEventListener('mousedown', mouseDownHandler);
  });
 });
-</script>
-<script>
  var PADDING = 60;
  var rect;
  var viewport = {
@@ -332,8 +322,6 @@
  resizer.addEventListener('mousedown', mouseDownHandler);
  });
 });
-</script>
-<script>
  var PADDING = 4;
  var rect;
  var viewport = {
@@ -385,8 +373,6 @@
  document.onmousemove = null;
  }
 }
-</script>
-<script>
  var PADDING = 60;
  var rect;
  var viewport = {
@@ -441,8 +427,6 @@
  resizer.addEventListener('mousedown', mouseDownHandler);
  });
 });
-</script>
-<script>
  var PADDING = 4;
  var rect;
  var viewport = {
@@ -494,8 +478,6 @@
  document.onmousemove = null;
  }
 }
-</script>
-<script>
  var PADDING = 4;
  var rect;
  var viewport = {
@@ -547,8 +529,6 @@
  document.onmousemove = null;
  }
 }
-</script>
-<script>
  var PADDING = 4;
  var rect;
  var viewport = {
@@ -600,8 +580,6 @@
  document.onmousemove = null;
  }
 }
-</script>
-<script>
  var PADDING = 4;
  var rect;
  var viewport = {
@@ -653,8 +631,6 @@
  document.onmousemove = null;
  }
 }
-</script>
-<script>
  var PADDING = 4;
  var rect;
  var viewport = {
@@ -706,8 +682,6 @@
  document.onmousemove = null;
  }
 }
-</script>
-<script>
  var PADDING = 4;
  var rect;
  var viewport = {
