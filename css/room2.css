@@ -3,6 +3,7 @@
   color: white;
   border: 3px solid white;
   padding-left: 71px;
+  padding-right: 71px;
 }
 .light-mode {
  background-color: white;
@@ -16,6 +17,8 @@
      border: 1px solid #000000;
      height: 8rem;
      width: 8rem;
+     padding-left: 71px;
+     padding-right: 71px;
   }
   .resizer {
      position: absolute;
@@ -26,6 +29,8 @@
      right: 0;
      top: 0;
      width: 5px;
+     padding-left: 71px;
+     padding-right: 71px;
   }
   .resizer-b {
      bottom: 0;
@@ -33,10 +38,12 @@
      height: 5px;
      left: 0;
      width: 100%;
+     padding-left: 71px;
+     padding-right: 71px;
   }
   .containerchart1 {
      min-height: 32rem;
-     padding: 3rem;
+     padding: 10rem;
   }
   #chart1 {
      border: 4px solid white;
@@ -49,4 +56,6 @@
      z-index: 12;
      background-color: #000000;
      color: #fff;
+     padding-left: 71px;
+     padding-right: 71px;
   }
