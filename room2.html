@@ -46,6 +46,30 @@
      min-height: 32rem;
      padding: 1rem;
   }
+  .containerchartd1 {
+     min-height: 32rem;
+     padding: 1rem;
+  }
+  .containerchartmk1 {
+     min-height: 32rem;
+     padding: 1rem;
+  }
+  .containerchartXAUBTC1 {
+     min-height: 32rem;
+     padding: 1rem;
+  }
+  .containerchartSP500 {
+     min-height: 32rem;
+     padding: 1rem;
+  }
+  .containerwhaletv1 {
+     min-height: 32rem;
+     padding: 1rem;
+  }
+  .containernews1 {
+     min-height: 32rem;
+     padding: 1rem;
+  }
   #chart1 {
      border: 4px solid white;
      height: 250px;
@@ -58,11 +82,89 @@
      background-color: #000000;
      color: #fff;
   }
+  #chartd1 {
+     border: 4px solid white;
+     height: 250px;
+     top: 7%;
+     left: 21.7%;
+     position: absolute;
+     width: 250px;
+     cursor: move;
+     z-index: 12;
+     background-color: #000000;
+     color: #fff;
+  }
+  #chartmk1 {
+     border: 4px solid white;
+     height: 250px;
+     top: 7%;
+     left: 42.4%;
+     position: absolute;
+     width: 250px;
+     cursor: move;
+     z-index: 12;
+     background-color: #000000;
+     color: #fff;
+  }
+  #chartXAUBTC1 {
+     border: 4px solid white;
+     height: 250px;
+     top: 7%;
+     left: 63.1%;
+     position: absolute;
+     width: 250px;
+     cursor: move;
+     z-index: 12;
+     background-color: #000000;
+     color: #fff;
+  }
+  #chartSP500 {
+     border: 4px solid white;
+     height: 250px;
+     top: 37%;
+     left: 1%;
+     position: absolute;
+     width: 250px;
+     cursor: move;
+     z-index: 12;
+     background-color: #000000;
+     color: #fff;
+  }
+  #chartwhale1 {
+     border: 4px solid white;
+     height: 250px;
+     top: 37%;
+     left: 21.7%;
+     position: absolute;
+     width: 250px;
+     cursor: move;
+     z-index: 12;
+     background-color: #000000;
+     color: #fff;
+  }
+  #chartnews1 {
+     border: 4px solid white;
+     height: 250px;
+     top: 37%;
+     left: 42.4%;
+     position: absolute;
+     width: 250px;
+     cursor: move;
+     z-index: 12;
+     background-color: #000000;
+     color: #fff;
+  }
 </style>
  </head>
   <body>
 <hr/>
-<button onclick="onelement1()">PRICE|CHART-1</button>
+<button onclick="onelement1()">Market State</button>
+<button onclick="onelement2()">DOMINANCE|CHART-1</button>
+<button onclick="onelement3()">MARKETCAP|CHART-1</button>
+<button onclick="onelement4()">XAUBTC|CHART-1</button>
+<button onclick="onelement5()">S&P500|CHART-1</button>
+<button onclick="onelement6()">Transaction Map</button>
+<button onclick="onelement7()">Cointelegraph</button>
   <a href="https://defiminds.github.io/home/">
    <button>Home</button>
 </a>
@@ -75,10 +177,73 @@
 <a href="https://defiminds.github.io/pgp/">
    <button>PGP-Suite</button>
 </a>
+<a href="https://defiminds.github.io/home/edu.html">
+<button>Education</button>
+</a>
 <button onclick="lights()">Lights</button>
 <script>
 function onelement1() {
   var x = document.getElementById("chart1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<script>
+function onelement2() {
+  var x = document.getElementById("chartd1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<script>
+function onelement3() {
+  var x = document.getElementById("chartmk1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<script>
+function onelement4() {
+  var x = document.getElementById("chartXAUBTC1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<script>
+function onelement5() {
+  var x = document.getElementById("chartSP500");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<script>
+function onelement6() {
+  var x = document.getElementById("chartwhale1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<script>
+function onelement7() {
+  var x = document.getElementById("chartnews1");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -91,12 +256,53 @@ function onelement1() {
  <body style="background-color:#000000;">
  <div class="container">
  <div class="resizable" id="chart1">
-<iframe src="https://coin360.com/widget/map?utm_source=embed_map" frameborder="0" title="Coin360.com: Cryptocurrency Market State" width="100%" height="100%"></iframe>
+ <iframe src="https://coin360.com/widget/map?utm_source=embed_map" frameborder="0" title="Coin360.com: Cryptocurrency Market State" width="100%" height="100%"></iframe>
  <div class="resizer resizer-r"></div>
  <div class="resizer resizer-b"></div>
  </div>
  </div>
+ <div class="containerchartd1">
+ <div class="resizable" id="chartd1">
+ 
+ <div class="resizer resizer-r"></div>
+ <div class="resizer resizer-b"></div>
+ </div>
+ </div>
+ <div class="containerchartmk1">
+ <div class="resizable" id="chartmk1">
+ 
+ <div class="resizer resizer-r"></div>
+ <div class="resizer resizer-b"></div>
+ </div>
+ </div>
+ <div class="containerchartXAUBTC1">
+ <div class="resizable" id="chartXAUBTC1">
+ 
+ <div class="resizer resizer-r"></div>
+ <div class="resizer resizer-b"></div>
+ </div>
+ </div>
+ <div class="containerchartSP500">
+ <div class="resizable" id="chartSP500">
+ 
+ <div class="resizer resizer-r"></div>
+ <div class="resizer resizer-b"></div>
+ </div>
+ </div>
+ <div class="containerwhaletv1">
+ <div class="resizable" id="chartwhale1">
 
+ <div class="resizer resizer-r"></div>
+ <div class="resizer resizer-b"></div>
+ </div>
+ </div>
+ <div class="containernews1">
+ <div class="resizable" id="chartnews1">
+ 
+ <div class="resizer resizer-r"></div>
+ <div class="resizer resizer-b"></div>
+ </div>
+ </div>
 <script>
  var PADDING = 60;
  var rect;
@@ -153,7 +359,713 @@ function onelement1() {
  });
 });
 </script>
-
+<script>
+ var PADDING = 60;
+ var rect;
+ var viewport = {
+     bottom: 0,
+     left: 0,
+     right: 0,
+     top: 0
+}
+ document.addEventListener('DOMContentLoaded', function () {
+ const ele = document.getElementById('chartd1');
+     let x = 0;
+     let y = 0;
+     let w = 0;
+     let h = 0;
+ const mouseDownHandler = function (e) {
+     x = e.clientX;
+     y = e.clientY;
+ const styles = window.getComputedStyle(ele);
+     w = parseInt(styles.width, 10);
+     h = parseInt(styles.height, 10);
+ document.addEventListener('mousemove', mouseMoveHandler);
+ document.addEventListener('mouseup', mouseUpHandler);
+ rect = elmnt.getBoundingClientRect();
+ viewport.bottom = window.innerHeight - PADDING;
+ viewport.left = PADDING;
+ viewport.right = window.innerWidth - PADDING;
+ viewport.top = PADDING;
+};            
+ const mouseMoveHandler = function (e) {
+ const dx = e.clientX - x;
+ const dy = e.clientY - y;
+ ele.style.width = `${w + dx}px`;
+ ele.style.height = `${h + dy}px`;
+ var newLeft = elmnt.offsetLeft - pos1;
+ var newTop = elmnt.offsetTop - pos2;
+ if (newLeft < viewport.left
+     || newTop < viewport.top
+     || newLeft + rect.width > viewport.right
+     || newTop + rect.height > viewport.bottom
+) {
+ } else {
+ elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+ elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+ }
+};
+ const mouseUpHandler = function () {
+ document.removeEventListener('mousemove', mouseMoveHandler);
+ document.removeEventListener('mouseup', mouseUpHandler);
+};
+ const resizers = ele.querySelectorAll('.resizer');
+ [].forEach.call(resizers, function (resizer) {
+ resizer.addEventListener('mousedown', mouseDownHandler);
+ });
+});
+</script>
+<script>
+ var PADDING = 60;
+ var rect;
+ var viewport = {
+     bottom: 0,
+     left: 0,
+     right: 0,
+     top: 0
+}
+ document.addEventListener('DOMContentLoaded', function () {
+ const ele = document.getElementById('chartmk1');
+     let x = 0;
+     let y = 0;
+     let w = 0;
+     let h = 0;
+ const mouseDownHandler = function (e) {
+     x = e.clientX;
+     y = e.clientY;
+ const styles = window.getComputedStyle(ele);
+     w = parseInt(styles.width, 10);
+     h = parseInt(styles.height, 10);
+ document.addEventListener('mousemove', mouseMoveHandler);
+ document.addEventListener('mouseup', mouseUpHandler);
+ rect = elmnt.getBoundingClientRect();
+ viewport.bottom = window.innerHeight - PADDING;
+ viewport.left = PADDING;
+ viewport.right = window.innerWidth - PADDING;
+ viewport.top = PADDING;
+};            
+ const mouseMoveHandler = function (e) {
+ const dx = e.clientX - x;
+ const dy = e.clientY - y;
+ ele.style.width = `${w + dx}px`;
+ ele.style.height = `${h + dy}px`;
+ var newLeft = elmnt.offsetLeft - pos1;
+ var newTop = elmnt.offsetTop - pos2;
+ if (newLeft < viewport.left
+     || newTop < viewport.top
+     || newLeft + rect.width > viewport.right
+     || newTop + rect.height > viewport.bottom
+) {
+ } else {
+ elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+ elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+ }
+};
+ const mouseUpHandler = function () {
+ document.removeEventListener('mousemove', mouseMoveHandler);
+ document.removeEventListener('mouseup', mouseUpHandler);
+};
+ const resizers = ele.querySelectorAll('.resizer');
+ [].forEach.call(resizers, function (resizer) {
+ resizer.addEventListener('mousedown', mouseDownHandler);
+ });
+});
+</script>
+<script>
+ var PADDING = 60;
+ var rect;
+ var viewport = {
+     bottom: 0,
+     left: 0,
+     right: 0,
+     top: 0
+}
+ document.addEventListener('DOMContentLoaded', function () {
+ const ele = document.getElementById('chartXAUBTC1');
+     let x = 0;
+     let y = 0;
+     let w = 0;
+     let h = 0;
+ const mouseDownHandler = function (e) {
+     x = e.clientX;
+     y = e.clientY;
+ const styles = window.getComputedStyle(ele);
+     w = parseInt(styles.width, 10);
+     h = parseInt(styles.height, 10);
+ document.addEventListener('mousemove', mouseMoveHandler);
+ document.addEventListener('mouseup', mouseUpHandler);
+ rect = elmnt.getBoundingClientRect();
+ viewport.bottom = window.innerHeight - PADDING;
+ viewport.left = PADDING;
+ viewport.right = window.innerWidth - PADDING;
+ viewport.top = PADDING;
+};            
+ const mouseMoveHandler = function (e) {
+ const dx = e.clientX - x;
+ const dy = e.clientY - y;
+ ele.style.width = `${w + dx}px`;
+ ele.style.height = `${h + dy}px`;
+ var newLeft = elmnt.offsetLeft - pos1;
+ var newTop = elmnt.offsetTop - pos2;
+ if (newLeft < viewport.left
+     || newTop < viewport.top
+     || newLeft + rect.width > viewport.right
+     || newTop + rect.height > viewport.bottom
+) {
+ } else {
+ elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+ elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+ }
+};
+ const mouseUpHandler = function () {
+ document.removeEventListener('mousemove', mouseMoveHandler);
+ document.removeEventListener('mouseup', mouseUpHandler);
+};
+ const resizers = ele.querySelectorAll('.resizer');
+ [].forEach.call(resizers, function (resizer) {
+ resizer.addEventListener('mousedown', mouseDownHandler);
+ });
+});
+</script>
+<script>
+ var PADDING = 60;
+ var rect;
+ var viewport = {
+     bottom: 0,
+     left: 0,
+     right: 0,
+     top: 0
+}
+ document.addEventListener('DOMContentLoaded', function () {
+ const ele = document.getElementById('chartSP500');
+     let x = 0;
+     let y = 0;
+     let w = 0;
+     let h = 0;
+ const mouseDownHandler = function (e) {
+     x = e.clientX;
+     y = e.clientY;
+ const styles = window.getComputedStyle(ele);
+     w = parseInt(styles.width, 10);
+     h = parseInt(styles.height, 10);
+ document.addEventListener('mousemove', mouseMoveHandler);
+ document.addEventListener('mouseup', mouseUpHandler);
+ rect = elmnt.getBoundingClientRect();
+ viewport.bottom = window.innerHeight - PADDING;
+ viewport.left = PADDING;
+ viewport.right = window.innerWidth - PADDING;
+ viewport.top = PADDING;
+};            
+ const mouseMoveHandler = function (e) {
+ const dx = e.clientX - x;
+ const dy = e.clientY - y;
+ ele.style.width = `${w + dx}px`;
+ ele.style.height = `${h + dy}px`;
+ var newLeft = elmnt.offsetLeft - pos1;
+ var newTop = elmnt.offsetTop - pos2;
+ if (newLeft < viewport.left
+     || newTop < viewport.top
+     || newLeft + rect.width > viewport.right
+     || newTop + rect.height > viewport.bottom
+) {
+ } else {
+ elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+ elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+ }
+};
+ const mouseUpHandler = function () {
+ document.removeEventListener('mousemove', mouseMoveHandler);
+ document.removeEventListener('mouseup', mouseUpHandler);
+};
+ const resizers = ele.querySelectorAll('.resizer');
+ [].forEach.call(resizers, function (resizer) {
+ resizer.addEventListener('mousedown', mouseDownHandler);
+ });
+});
+</script>
+<script>
+ var PADDING = 60;
+ var rect;
+ var viewport = {
+     bottom: 0,
+     left: 0,
+     right: 0,
+     top: 0
+}
+ document.addEventListener('DOMContentLoaded', function () {
+ const ele = document.getElementById('chartwhale1');
+     let x = 0;
+     let y = 0;
+     let w = 0;
+     let h = 0;
+ const mouseDownHandler = function (e) {
+     x = e.clientX;
+     y = e.clientY;
+ const styles = window.getComputedStyle(ele);
+     w = parseInt(styles.width, 10);
+     h = parseInt(styles.height, 10);
+ document.addEventListener('mousemove', mouseMoveHandler);
+ document.addEventListener('mouseup', mouseUpHandler);
+ rect = elmnt.getBoundingClientRect();
+ viewport.bottom = window.innerHeight - PADDING;
+ viewport.left = PADDING;
+ viewport.right = window.innerWidth - PADDING;
+ viewport.top = PADDING;
+};            
+ const mouseMoveHandler = function (e) {
+ const dx = e.clientX - x;
+ const dy = e.clientY - y;
+ ele.style.width = `${w + dx}px`;
+ ele.style.height = `${h + dy}px`;
+ var newLeft = elmnt.offsetLeft - pos1;
+ var newTop = elmnt.offsetTop - pos2;
+ if (newLeft < viewport.left
+     || newTop < viewport.top
+     || newLeft + rect.width > viewport.right
+     || newTop + rect.height > viewport.bottom
+) {
+ } else {
+ elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+ elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+ }
+};
+ const mouseUpHandler = function () {
+ document.removeEventListener('mousemove', mouseMoveHandler);
+ document.removeEventListener('mouseup', mouseUpHandler);
+};
+ const resizers = ele.querySelectorAll('.resizer');
+ [].forEach.call(resizers, function (resizer) {
+ resizer.addEventListener('mousedown', mouseDownHandler);
+ });
+});
+</script>
+<script>
+ var PADDING = 4;
+ var rect;
+ var viewport = {
+     bottom: 0,
+     left: 0,
+     right: 0,
+     top: 0
+}
+ dragElement(document.getElementById(("chart1")));
+ function dragElement(elmnt) {
+ var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+ document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+ } else {
+ elmnt.onmousedown = dragMouseDown;
+}
+ function dragMouseDown(e) {
+     e = e || window.event;
+     pos3 = e.clientX;
+     pos4 = e.clientY;
+ rect = elmnt.getBoundingClientRect();
+     viewport.bottom = window.innerHeight - PADDING;
+     viewport.left = PADDING;
+     viewport.right = window.innerWidth - PADDING;
+     viewport.top = PADDING;   
+ document.onmouseup = closeDragElement;
+ document.onmousemove = elementDrag;
+}
+ function elementDrag(e) {
+     e = e || window.event;
+     pos1 = pos3 - e.clientX;
+     pos2 = pos4 - e.clientY;
+     pos3 = e.clientX;
+     pos4 = e.clientY;
+     var newLeft = elmnt.offsetLeft - pos1;
+     var newTop = elmnt.offsetTop - pos2;
+ if (newLeft < viewport.left
+     || newTop < viewport.top
+     || newLeft + rect.width > viewport.right
+     || newTop + rect.height > viewport.bottom
+) {
+} else { 
+ elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+ elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+ }
+}
+ function closeDragElement() {
+ document.onmouseup = null;
+ document.onmousemove = null;
+ }
+}
+</script>
+<script>
+ var PADDING = 60;
+ var rect;
+ var viewport = {
+     bottom: 0,
+     left: 0,
+     right: 0,
+     top: 0
+}
+ document.addEventListener('DOMContentLoaded', function () {
+ const ele = document.getElementById('chartnews1');
+     let x = 0;
+     let y = 0;
+     let w = 0;
+     let h = 0;
+ const mouseDownHandler = function (e) {
+     x = e.clientX;
+     y = e.clientY;
+ const styles = window.getComputedStyle(ele);
+     w = parseInt(styles.width, 10);
+     h = parseInt(styles.height, 10);
+ document.addEventListener('mousemove', mouseMoveHandler);
+ document.addEventListener('mouseup', mouseUpHandler);
+ rect = elmnt.getBoundingClientRect();
+ viewport.bottom = window.innerHeight - PADDING;
+ viewport.left = PADDING;
+ viewport.right = window.innerWidth - PADDING;
+ viewport.top = PADDING;
+};            
+ const mouseMoveHandler = function (e) {
+ const dx = e.clientX - x;
+ const dy = e.clientY - y;
+ ele.style.width = `${w + dx}px`;
+ ele.style.height = `${h + dy}px`;
+ var newLeft = elmnt.offsetLeft - pos1;
+ var newTop = elmnt.offsetTop - pos2;
+ if (newLeft < viewport.left
+     || newTop < viewport.top
+     || newLeft + rect.width > viewport.right
+     || newTop + rect.height > viewport.bottom
+) {
+ } else {
+ elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+ elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+ }
+};
+ const mouseUpHandler = function () {
+ document.removeEventListener('mousemove', mouseMoveHandler);
+ document.removeEventListener('mouseup', mouseUpHandler);
+};
+ const resizers = ele.querySelectorAll('.resizer');
+ [].forEach.call(resizers, function (resizer) {
+ resizer.addEventListener('mousedown', mouseDownHandler);
+ });
+});
+</script>
+<script>
+ var PADDING = 4;
+ var rect;
+ var viewport = {
+     bottom: 0,
+     left: 0,
+     right: 0,
+     top: 0
+}
+ dragElement(document.getElementById(("chartd1")));
+ function dragElement(elmnt) {
+ var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+ document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+ } else {
+ elmnt.onmousedown = dragMouseDown;
+}
+ function dragMouseDown(e) {
+     e = e || window.event;
+     pos3 = e.clientX;
+     pos4 = e.clientY;
+ rect = elmnt.getBoundingClientRect();
+     viewport.bottom = window.innerHeight - PADDING;
+     viewport.left = PADDING;
+     viewport.right = window.innerWidth - PADDING;
+     viewport.top = PADDING;   
+ document.onmouseup = closeDragElement;
+ document.onmousemove = elementDrag;
+}
+ function elementDrag(e) {
+     e = e || window.event;
+     pos1 = pos3 - e.clientX;
+     pos2 = pos4 - e.clientY;
+     pos3 = e.clientX;
+     pos4 = e.clientY;
+     var newLeft = elmnt.offsetLeft - pos1;
+     var newTop = elmnt.offsetTop - pos2;
+ if (newLeft < viewport.left
+     || newTop < viewport.top
+     || newLeft + rect.width > viewport.right
+     || newTop + rect.height > viewport.bottom
+) {
+} else { 
+ elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+ elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+ }
+}
+ function closeDragElement() {
+ document.onmouseup = null;
+ document.onmousemove = null;
+ }
+}
+</script>
+<script>
+ var PADDING = 4;
+ var rect;
+ var viewport = {
+     bottom: 0,
+     left: 0,
+     right: 0,
+     top: 0
+}
+ dragElement(document.getElementById(("chartmk1")));
+ function dragElement(elmnt) {
+ var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+ document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+ } else {
+ elmnt.onmousedown = dragMouseDown;
+}
+ function dragMouseDown(e) {
+     e = e || window.event;
+     pos3 = e.clientX;
+     pos4 = e.clientY;
+ rect = elmnt.getBoundingClientRect();
+     viewport.bottom = window.innerHeight - PADDING;
+     viewport.left = PADDING;
+     viewport.right = window.innerWidth - PADDING;
+     viewport.top = PADDING;   
+ document.onmouseup = closeDragElement;
+ document.onmousemove = elementDrag;
+}
+ function elementDrag(e) {
+     e = e || window.event;
+     pos1 = pos3 - e.clientX;
+     pos2 = pos4 - e.clientY;
+     pos3 = e.clientX;
+     pos4 = e.clientY;
+     var newLeft = elmnt.offsetLeft - pos1;
+     var newTop = elmnt.offsetTop - pos2;
+ if (newLeft < viewport.left
+     || newTop < viewport.top
+     || newLeft + rect.width > viewport.right
+     || newTop + rect.height > viewport.bottom
+) {
+} else { 
+ elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+ elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+ }
+}
+ function closeDragElement() {
+ document.onmouseup = null;
+ document.onmousemove = null;
+ }
+}
+</script>
+<script>
+ var PADDING = 4;
+ var rect;
+ var viewport = {
+     bottom: 0,
+     left: 0,
+     right: 0,
+     top: 0
+}
+ dragElement(document.getElementById(("chartXAUBTC1")));
+ function dragElement(elmnt) {
+ var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+ document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+ } else {
+ elmnt.onmousedown = dragMouseDown;
+}
+ function dragMouseDown(e) {
+     e = e || window.event;
+     pos3 = e.clientX;
+     pos4 = e.clientY;
+ rect = elmnt.getBoundingClientRect();
+     viewport.bottom = window.innerHeight - PADDING;
+     viewport.left = PADDING;
+     viewport.right = window.innerWidth - PADDING;
+     viewport.top = PADDING;   
+ document.onmouseup = closeDragElement;
+ document.onmousemove = elementDrag;
+}
+ function elementDrag(e) {
+     e = e || window.event;
+     pos1 = pos3 - e.clientX;
+     pos2 = pos4 - e.clientY;
+     pos3 = e.clientX;
+     pos4 = e.clientY;
+     var newLeft = elmnt.offsetLeft - pos1;
+     var newTop = elmnt.offsetTop - pos2;
+ if (newLeft < viewport.left
+     || newTop < viewport.top
+     || newLeft + rect.width > viewport.right
+     || newTop + rect.height > viewport.bottom
+) {
+} else { 
+ elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+ elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+ }
+}
+ function closeDragElement() {
+ document.onmouseup = null;
+ document.onmousemove = null;
+ }
+}
+</script>
+<script>
+ var PADDING = 4;
+ var rect;
+ var viewport = {
+     bottom: 0,
+     left: 0,
+     right: 0,
+     top: 0
+}
+ dragElement(document.getElementById(("chartSP500")));
+ function dragElement(elmnt) {
+ var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+ document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+ } else {
+ elmnt.onmousedown = dragMouseDown;
+}
+ function dragMouseDown(e) {
+     e = e || window.event;
+     pos3 = e.clientX;
+     pos4 = e.clientY;
+ rect = elmnt.getBoundingClientRect();
+     viewport.bottom = window.innerHeight - PADDING;
+     viewport.left = PADDING;
+     viewport.right = window.innerWidth - PADDING;
+     viewport.top = PADDING;   
+ document.onmouseup = closeDragElement;
+ document.onmousemove = elementDrag;
+}
+ function elementDrag(e) {
+     e = e || window.event;
+     pos1 = pos3 - e.clientX;
+     pos2 = pos4 - e.clientY;
+     pos3 = e.clientX;
+     pos4 = e.clientY;
+     var newLeft = elmnt.offsetLeft - pos1;
+     var newTop = elmnt.offsetTop - pos2;
+ if (newLeft < viewport.left
+     || newTop < viewport.top
+     || newLeft + rect.width > viewport.right
+     || newTop + rect.height > viewport.bottom
+) {
+} else { 
+ elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+ elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+ }
+}
+ function closeDragElement() {
+ document.onmouseup = null;
+ document.onmousemove = null;
+ }
+}
+</script>
+<script>
+ var PADDING = 4;
+ var rect;
+ var viewport = {
+     bottom: 0,
+     left: 0,
+     right: 0,
+     top: 0
+}
+ dragElement(document.getElementById(("chartwhale1")));
+ function dragElement(elmnt) {
+ var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+ document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+ } else {
+ elmnt.onmousedown = dragMouseDown;
+}
+ function dragMouseDown(e) {
+     e = e || window.event;
+     pos3 = e.clientX;
+     pos4 = e.clientY;
+ rect = elmnt.getBoundingClientRect();
+     viewport.bottom = window.innerHeight - PADDING;
+     viewport.left = PADDING;
+     viewport.right = window.innerWidth - PADDING;
+     viewport.top = PADDING;   
+ document.onmouseup = closeDragElement;
+ document.onmousemove = elementDrag;
+}
+ function elementDrag(e) {
+     e = e || window.event;
+     pos1 = pos3 - e.clientX;
+     pos2 = pos4 - e.clientY;
+     pos3 = e.clientX;
+     pos4 = e.clientY;
+     var newLeft = elmnt.offsetLeft - pos1;
+     var newTop = elmnt.offsetTop - pos2;
+ if (newLeft < viewport.left
+     || newTop < viewport.top
+     || newLeft + rect.width > viewport.right
+     || newTop + rect.height > viewport.bottom
+) {
+} else { 
+ elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+ elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+ }
+}
+ function closeDragElement() {
+ document.onmouseup = null;
+ document.onmousemove = null;
+ }
+}
+</script>
+<script>
+ var PADDING = 4;
+ var rect;
+ var viewport = {
+     bottom: 0,
+     left: 0,
+     right: 0,
+     top: 0
+}
+ dragElement(document.getElementById(("chartnews1")));
+ function dragElement(elmnt) {
+ var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+ document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+ } else {
+ elmnt.onmousedown = dragMouseDown;
+}
+ function dragMouseDown(e) {
+     e = e || window.event;
+     pos3 = e.clientX;
+     pos4 = e.clientY;
+ rect = elmnt.getBoundingClientRect();
+     viewport.bottom = window.innerHeight - PADDING;
+     viewport.left = PADDING;
+     viewport.right = window.innerWidth - PADDING;
+     viewport.top = PADDING;   
+ document.onmouseup = closeDragElement;
+ document.onmousemove = elementDrag;
+}
+ function elementDrag(e) {
+     e = e || window.event;
+     pos1 = pos3 - e.clientX;
+     pos2 = pos4 - e.clientY;
+     pos3 = e.clientX;
+     pos4 = e.clientY;
+     var newLeft = elmnt.offsetLeft - pos1;
+     var newTop = elmnt.offsetTop - pos2;
+ if (newLeft < viewport.left
+     || newTop < viewport.top
+     || newLeft + rect.width > viewport.right
+     || newTop + rect.height > viewport.bottom
+) {
+} else { 
+ elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+ elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+ }
+}
+ function closeDragElement() {
+ document.onmouseup = null;
+ document.onmousemove = null;
+ }
+}
+</script>
 <script>
 function lights() {
  var element = document.body;
