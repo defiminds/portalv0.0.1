@@ -1,14 +1,20 @@
-<!DOCTYPE html> <html> <head> <title>Commodities</title> <meta charset="utf-8" /> <meta name="viewport" content="width=100%, height=100%, initial-scale=1" /> <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /> <meta http-equiv="Pragma" content="no-cache" /> <meta http-equiv="Expires" content="-1" />
+<!DOCTYPE html>
+<html> <head> <title>Room</title>
+<meta charset="utf-8" /> <meta name="viewport" content="width=100%, height=100%, initial-scale=1" /> <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /> <meta http-equiv="Pragma" content="no-cache" /> <meta http-equiv="Expires" content="-1" />
 <link rel="stylesheet" href="/home/css/commodities.css"> </head> <body> <hr/>
-                                                            <button onclick="onelement1()">CFTC Gold Certain</button>
-                                                            <button onclick="onelement2()">CFTC Gold Full</button>
+<button onclick="onelement1()">PRICE|CHART-1</button>
+<button onclick="onelement2()">DOMINANCE|CHART-1</button>
+<button onclick="onelement3()">MARKETCAP|CHART-1</button>
+<button onclick="onelement4()">XAUBTC|CHART-1</button>
+<button onclick="onelement5()">S&P500|CHART-1</button>
+<button onclick="onelement6()">Transaction Map</button>
+<button onclick="onelement7()">Cointelegraph</button>
 <a href="https://defiminds.github.io/home/">                <button>Home</button> </a>
 <a href="https://defiminds.github.io/home/social.html">     <button>Social</button> </a>
 <a href="https://defiminds.github.io/home/analyze.html">    <button>Analyze</button> </a>
-<a href="https://defiminds.github.io/pgp/">                 <button>PGP-Suite</button> </a>
-<a href="https://defiminds.github.io/home/edu.html">        <button>Education</button> </a>
                                                             <button onclick="lights()">Lights</button>
-<script type="application/javascript" src="/home/js/commodities/resize.js"></script>
+<script type="application/javascript" src="/home/js/commodities/elements.js"> </script> <hr/> </head> <body>
+
 <div class="container">
 <div class="resizable" id="chart1">
 <div id="economicCalendarEventWidget"></div>
@@ -16,15 +22,61 @@
   {"width":"100%","height":"100%","type":"event","theme":1,"id":840520003,"showTitle":1,"lang":"en"}
 </script>
 <div class="resizer resizer-r"></div>
-<div class="resizer resizer-b"></div></div></div>
-<div class="container">
+<div class="resizer resizer-b"></div>
+</div>
+</div>
+
+<div class="container2">
 <div class="resizable" id="chart2">
 <div id="economicCalendarWidget2"></div>
 <script async type="text/javascript" data-type="calendar-widget" src="https://www.tradays.com/c/js/widgets/calendar/widget.js?v=12">
   {"width":"100%","height":"100%","type":"calendar","theme":1,"mode":2,"lang":"en"}
 </script>
 <div class="resizer resizer-r"></div>
-<div class="resizer resizer-b"></div></div></div>
-<script type="application/javascript" src="/home/js/commodities/resize.js"></script>
-<script type="application/javascript" src="/home/js/commodities/move.js"></script>
-<script type="application/javascript" src="/home/js/lights.js"></script> </body> </html>
+<div class="resizer resizer-b"></div>
+</div>
+</div>
+
+<div class="container3">
+<div class="resizable" id="chart3">
+
+<div class="resizer resizer-r"></div>
+<div class="resizer resizer-b"></div>
+</div>
+</div>
+
+<div class="container4">
+<div class="resizable" id="chart4">
+
+<div class="resizer resizer-r"></div>
+<div class="resizer resizer-b"></div>
+</div>
+</div>
+
+<div class="container5">
+<div class="resizable" id="chart5">
+
+<div class="resizer resizer-r"></div>
+<div class="resizer resizer-b"></div>
+</div>
+</div>
+
+  
+<div class="container6">
+<div class="resizable" id="chart6">
+<div class="resizer resizer-r"></div>
+<div class="resizer resizer-b"></div>
+</div>
+</div>
+
+<div class="container7">
+<div class="resizable" id="chart7">
+
+<div class="resizer resizer-r"></div>
+<div class="resizer resizer-b"></div>
+</div>
+</div>
+
+<script type="application/javascript" src="/home/js/commodities/mr.js"></script>
+<script type="application/javascript" src="/home/js/lights.js"></script>
+</body> </html>
