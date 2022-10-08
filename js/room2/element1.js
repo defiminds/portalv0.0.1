@@ -14,3 +14,11 @@ function onelement2() {
     x.style.display = "none";
   }
 }
+function onelement3() {
+  var x = document.getElementById("header");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
