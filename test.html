@@ -2,22 +2,36 @@
 <html> <head> <title>Room</title>
 <meta charset="utf-8" /> <meta name="viewport" content="width=100%, height=100%, initial-scale=1" /> <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /> <meta http-equiv="Pragma" content="no-cache" /> <meta http-equiv="Expires" content="-1" />
 <link rel="stylesheet" href="/home/css/room2.css"> </head>
-<body> <hr/>
-                                                            <button onclick="onelement1()">Market State</button>
-<a href="https://defiminds.github.io/home/">                <button>Home</button> </a>
-<a href="https://defiminds.github.io/home/social.html">     <button>Social</button> </a>
-<a href="https://defiminds.github.io/home/analyze.html">    <button>Analyze</button> </a>
-<a href="https://defiminds.github.io/pgp/">                 <button>PGP-Suite</button> </a>
-<a href="https://defiminds.github.io/home/edu.html">        <button>Education</button> </a>
-                                                            <button onclick="lights()">Lights</button>
-<script type="application/javascript" src="/home/js/room2/element1.js"></script>
-<hr/> </head> <body>
-<div class="container">
-<div class="resizable" id="chart1">
-<iframe src="https://coin360.com/widget/map?utm_source=embed_map" frameborder="0" title="Coin360.com: Cryptocurrency Market State" width="100%" height="100%"></iframe>
-<div class="resizer resizer-r"></div>
-<div class="resizer resizer-b"></div></div></div>
-<script type="application/javascript" src="/home/js/room2/resize.js"></script>
-<script type="application/javascript" src="/home/js/room2/move.js"></script>
-<script type="application/javascript" src="/home/js/lights.js"></script>
+<body>
+<!-- Bitcoin Cash (BTC) Price Chart Widget -->
+<div bw-cash="true" class="btcwdgt-chart"></div>
+
+<!-- Bitcoin (BTC) Price Chart Widget -->
+<div class="btcwdgt-chart"></div>
+
+<!-- Active Forum Topics Widget -->
+<div class="btcwdgt-forum"></div>
+
+<!-- News Stories Widget -->
+<div class="btcwdgt-news"></div>
+
+<!-- News Ticker Widget -->
+<div class="btcwdgt-news-ticker"></div>
+
+<!-- Simple Price Widget -->
+<div class="btcwdgt-price" bw-cur="usd"></div>
+
+<!-- Bitcoin.com Mining Pool Hash Rate -->
+<div class="btcwdgt-pool"></div>
+
+<script>
+  (function(b,i,t,C,O,I,N) {
+    window.addEventListener('load',function() {
+      if(b.getElementById(C))return;
+      I=b.createElement(i),N=b.getElementsByTagName(i)[0];
+      I.src=t;I.id=C;N.parentNode.insertBefore(I, N);
+    },false)
+  })(document,'script','https://widgets.bitcoin.com/widget.js','btcwdgt');
+</script>
+  
 </body> </html>
