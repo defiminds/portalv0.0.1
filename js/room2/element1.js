@@ -15,7 +15,7 @@ function onelement2() {
   }
 }
 function onelement3() {
-  var x = document.getElementById("chart2");
+  var x = document.getElementById("chart3");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -23,7 +23,7 @@ function onelement3() {
   }
 }
 function onelement4() {
-  var x = document.getElementById("chart2");
+  var x = document.getElementById("chart4");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -31,7 +31,7 @@ function onelement4() {
   }
 }
 function onelement5() {
-  var x = document.getElementById("chart2");
+  var x = document.getElementById("chart5");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -39,7 +39,7 @@ function onelement5() {
   }
 }
 function onelement6() {
-  var x = document.getElementById("chart2");
+  var x = document.getElementById("chart6");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -47,7 +47,7 @@ function onelement6() {
   }
 }
 function onelement7() {
-  var x = document.getElementById("chart2");
+  var x = document.getElementById("chart7");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -55,7 +55,7 @@ function onelement7() {
   }
 }
 function onelement8() {
-  var x = document.getElementById("chart2");
+  var x = document.getElementById("chart8");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -63,7 +63,7 @@ function onelement8() {
   }
 }
 function onelement9() {
-  var x = document.getElementById("chart2");
+  var x = document.getElementById("chart9");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -71,7 +71,7 @@ function onelement9() {
   }
 }
 function onelement10() {
-  var x = document.getElementById("chart2");
+  var x = document.getElementById("chart10");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -79,7 +79,7 @@ function onelement10() {
   }
 }
 function onelement11() {
-  var x = document.getElementById("chart2");
+  var x = document.getElementById("chart11");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
