@@ -32,16 +32,6 @@
      left: 0;
      width: 100%;
   }
-  .container1 {
-     min-height: 32rem;
-     padding: 10rem;
-     order: 1;
-  }
-  .container2 {
-     min-height: 32rem;
-     padding: 10rem;
-     order: 2;
-  }
   .containerheader {
      min-height: 32rem;
      padding: 10rem;
@@ -60,6 +50,61 @@
      color: #fff;
      order: 3;
   }
+  .container1 {
+     min-height: 32rem;
+     padding: 10rem;
+     order: 1;
+  }
+  .container2 {
+     min-height: 32rem;
+     padding: 10rem;
+     order: 2;
+  }
+  .container3 {
+     min-height: 32rem;
+     padding: 10rem;
+     order: 2;
+  }
+  .container4 {
+     min-height: 32rem;
+     padding: 10rem;
+     order: 2;
+  }
+  .container5 {
+     min-height: 32rem;
+     padding: 10rem;
+     order: 2;
+  }
+  .container6 {
+     min-height: 32rem;
+     padding: 10rem;
+     order: 2;
+  }
+  .container7 {
+     min-height: 32rem;
+     padding: 10rem;
+     order: 2;
+  }
+  .container8 {
+     min-height: 32rem;
+     padding: 10rem;
+     order: 2;
+  }
+  .container9 {
+     min-height: 32rem;
+     padding: 10rem;
+     order: 2;
+  }
+  .container10 {
+     min-height: 32rem;
+     padding: 10rem;
+     order: 2;
+  }
+  .container11 {
+     min-height: 32rem;
+     padding: 10rem;
+     order: 2;
+  }
   #chart1 {
      border: 4px solid white;
      height: 250px;
@@ -74,6 +119,123 @@
      order: 2;
   }
   #chart2 {
+     border: 4px solid white;
+     height: 250px;
+     top: 7%;
+     left: 21.7%;
+     position: absolute;
+     width: 250px;
+     cursor: move;
+     z-index: 12;
+     background-color: #000000;
+     color: #fff;
+     order: 1;
+  }
+  #chart3 {
+     border: 4px solid white;
+     height: 250px;
+     top: 7%;
+     left: 21.7%;
+     position: absolute;
+     width: 250px;
+     cursor: move;
+     z-index: 12;
+     background-color: #000000;
+     color: #fff;
+     order: 1;
+  }
+  #chart4 {
+     border: 4px solid white;
+     height: 250px;
+     top: 7%;
+     left: 21.7%;
+     position: absolute;
+     width: 250px;
+     cursor: move;
+     z-index: 12;
+     background-color: #000000;
+     color: #fff;
+     order: 1;
+  }
+  #chart5 {
+     border: 4px solid white;
+     height: 250px;
+     top: 7%;
+     left: 21.7%;
+     position: absolute;
+     width: 250px;
+     cursor: move;
+     z-index: 12;
+     background-color: #000000;
+     color: #fff;
+     order: 1;
+  }
+  #chart6 {
+     border: 4px solid white;
+     height: 250px;
+     top: 7%;
+     left: 21.7%;
+     position: absolute;
+     width: 250px;
+     cursor: move;
+     z-index: 12;
+     background-color: #000000;
+     color: #fff;
+     order: 1;
+  }
+  #chart7 {
+     border: 4px solid white;
+     height: 250px;
+     top: 7%;
+     left: 21.7%;
+     position: absolute;
+     width: 250px;
+     cursor: move;
+     z-index: 12;
+     background-color: #000000;
+     color: #fff;
+     order: 1;
+  }
+  #chart8 {
+     border: 4px solid white;
+     height: 250px;
+     top: 7%;
+     left: 21.7%;
+     position: absolute;
+     width: 250px;
+     cursor: move;
+     z-index: 12;
+     background-color: #000000;
+     color: #fff;
+     order: 1;
+  }
+  #chart9 {
+     border: 4px solid white;
+     height: 250px;
+     top: 7%;
+     left: 21.7%;
+     position: absolute;
+     width: 250px;
+     cursor: move;
+     z-index: 12;
+     background-color: #000000;
+     color: #fff;
+     order: 1;
+  }
+  #chart10 {
+     border: 4px solid white;
+     height: 250px;
+     top: 7%;
+     left: 21.7%;
+     position: absolute;
+     width: 250px;
+     cursor: move;
+     z-index: 12;
+     background-color: #000000;
+     color: #fff;
+     order: 1;
+  }
+  #chart11 {
      border: 4px solid white;
      height: 250px;
      top: 7%;
