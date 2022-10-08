@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html> <head> <title>Market State</title>
-<meta charset="utf-8" /> <meta name="viewport" content="width=100%, height=100%, initial-scale=1" /> <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /> <meta http-equiv="Pragma" content="no-cache" /> <meta http-equiv="Expires" content="-1" />
-<link rel="stylesheet" href="/home/css/r2sidebar.css"> <link rel="stylesheet" href="/home/css/room2.css"></head> <body> 
-<div class="containerheader"> <div id="mySidebar" class="sidebar">
+<html><head><title>Market State</title>
+<meta charset="utf-8" /><meta name="viewport" content="width=100%, height=100%, initial-scale=1" /><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="-1" />
+<link rel="stylesheet" href="/home/css/r2sidebar.css"> <link rel="stylesheet" href="/home/css/room2.css"></head><body> 
+<div class="containerheader"> <div class="resizable" id="header"><div id="mySidebar" class="sidebar">
 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
                                                             <button onclick="onelement1()">Market State</button>
                                                             <button onclick="onelement2()">Fear & Greed</button>
@@ -11,18 +11,20 @@
 <a href="https://defiminds.github.io/home/analyze.html">    <button>Analyze</button> </a>
 <a href="https://defiminds.github.io/pgp/">                 <button>PGP-Suite</button> </a>
 <a href="https://defiminds.github.io/home/edu.html">        <button>Education</button> </a>
-                                                            <button onclick="lights()">Lights</button> 
-</div> <div class="containerheader"> <div class="resizable" id="header">  
-<div id="main">
-<button class="openbtn" onclick="openNav()">☰</button>  
-<script type="application/javascript" src="/home/js/room2/element1.js"></script><script type="application/javascript" src="/home/js/header/elements.js"></script>
+                                                            <button onclick="lights()">Lights</button>
+<div id="main"> <button class="openbtn" onclick="openNav()">☰</button>  
+<div class="resizer resizer-r"></div> <div class="resizer resizer-b"></div></div></div></div>
+  
 <div class="container1"> <div class="resizable" id="chart1">
 <iframe src="https://coin360.com/widget/map?utm_source=embed_map" frameborder="0" title="Coin360.com: Cryptocurrency Market State" width="100%" height="100%"></iframe>
 <div class="resizer resizer-r"></div> <div class="resizer resizer-b"></div></div></div>
+
 <div class="container2"> <div class="resizable" id="chart2">
 <img src="https://alternative.me/crypto/fear-and-greed-index.png" alt="Latest Crypto Fear & Greed Index" width="100%" height="100%"/>
-<div class="resizer resizer-r"></div> <div class="resizer resizer-b"></div></div></div></div></div></div>
 <div class="resizer resizer-r"></div> <div class="resizer resizer-b"></div></div></div>
+
+<script type="application/javascript" src="/home/js/room2/element1.js"></script>
+<script type="application/javascript" src="/home/js/header/elements.js"></script>
 <script type="application/javascript" src="/home/js/room2/sidebar.js"></script>
 <script type="application/javascript" src="/home/js/room2/resize.js"></script>
 <script type="application/javascript" src="/home/js/room2/move.js"></script>
