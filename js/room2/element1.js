@@ -8,7 +8,7 @@ function onelement1() {
 }
 function onelement2() {
   var x = document.getElementById("chart2");
-  if (x.style.display === "block") {
+  if (x.style.display === "none") {
     x.style.display = "none";
   } else {
     x.style.display = "block";
