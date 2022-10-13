@@ -32,35 +32,51 @@
      left: 0;
      width: 100%;
   }
-  .containerchart1 {
+  .container1 {
      min-height: 32rem;
      padding: 1rem;
   }
-  .containerchartd1 {
+  .container2 {
      min-height: 32rem;
      padding: 1rem;
   }
-  .containerchartmk1 {
+  .container3 {
      min-height: 32rem;
      padding: 1rem;
   }
-  .containerchartXAUBTC1 {
+  .container4 {
      min-height: 32rem;
      padding: 1rem;
   }
-  .containerchartSP500 {
+  .container5 {
      min-height: 32rem;
      padding: 1rem;
   }
-  .containerwhaletv1 {
+  .container6 {
      min-height: 32rem;
      padding: 1rem;
   }
-  .containernews1 {
+  .container7 {
      min-height: 32rem;
      padding: 1rem;
   }
-  .containerfeargreed {
+  .container8 {
+     min-height: 32rem;
+     padding: 1rem;
+  }
+  .container9 {
+     min-height: 32rem;
+     padding: 1rem;
+  }
+  .container10 {
+     min-height: 32rem;
+     padding: 1rem;
+  }
+  .container11 {
+     min-height: 32rem;
+     padding: 1rem;
+  }
+  .container12 {
      min-height: 32rem;
      padding: 1rem;
   }
@@ -76,7 +92,7 @@
      background-color: #000000;
      color: #fff;
   }
-  #chartd1 {
+  #chart2 {
      border: 4px solid white;
      height: 250px;
      top: 7%;
@@ -88,7 +104,7 @@
      background-color: #000000;
      color: #fff;
   }
-  #chartmk1 {
+  #chart3 {
      border: 4px solid white;
      height: 250px;
      top: 7%;
@@ -100,7 +116,7 @@
      background-color: #000000;
      color: #fff;
   }
-  #chartXAUBTC1 {
+  #chart4 {
      border: 4px solid white;
      height: 250px;
      top: 7%;
@@ -112,7 +128,7 @@
      background-color: #000000;
      color: #fff;
   }
-  #chartSP500 {
+  #chart5 {
      border: 4px solid white;
      height: 250px;
      top: 37%;
@@ -124,7 +140,7 @@
      background-color: #000000;
      color: #fff;
   }
-  #chartwhale1 {
+  #chart6 {
      border: 4px solid white;
      height: 250px;
      top: 37%;
@@ -136,7 +152,7 @@
      background-color: #000000;
      color: #fff;
   }
-  #chartnews1 {
+  #chart7 {
      border: 4px solid white;
      height: 250px;
      top: 37%;
@@ -148,10 +164,58 @@
      background-color: #000000;
      color: #fff;
   }
- #chartfeargreed {
+ #chart8 {
      border: 4px solid white;
      height: 250px;
      top: 37%;
+     left: 63.1%;
+     position: absolute;
+     width: 250px;
+     cursor: move;
+     z-index: 12;
+     background-color: #000000;
+     color: #fff;
+  }
+ #chart9 {
+     border: 4px solid white;
+     height: 250px;
+     top: 63%;
+     left: 0%;
+     position: absolute;
+     width: 250px;
+     cursor: move;
+     z-index: 12;
+     background-color: #000000;
+     color: #fff;
+  }
+ #chart10 {
+     border: 4px solid white;
+     height: 250px;
+     top: 63%;
+     left: 21.7%;
+     position: absolute;
+     width: 250px;
+     cursor: move;
+     z-index: 12;
+     background-color: #000000;
+     color: #fff;
+  }
+ #chart11 {
+     border: 4px solid white;
+     height: 250px;
+     top: 63%;
+     left: 42.4%;
+     position: absolute;
+     width: 250px;
+     cursor: move;
+     z-index: 12;
+     background-color: #000000;
+     color: #fff;
+  }
+ #chart12 {
+     border: 4px solid white;
+     height: 250px;
+     top: 63%;
      left: 63.1%;
      position: absolute;
      width: 250px;
