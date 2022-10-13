@@ -54,3 +54,11 @@ function onelement7() {
     x.style.display = "none";
   }
 }
+function onelement8() {
+  var x = document.getElementById("chartfeargreed");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
