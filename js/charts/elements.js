@@ -46,3 +46,11 @@ function onelement6() {
     x.style.display = "none";
   }
 }
+function onelement7() {
+  var x = document.getElementById("chart7");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
