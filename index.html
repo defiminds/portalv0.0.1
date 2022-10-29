@@ -1,15 +1,21 @@
 <!DOCTYPE html>
-<html> <head>
-<title>DeFiMinds</title>
-<meta charset="utf-8" /> <meta name="viewport" content="width=100%, height=100%, initial-scale=1" /> <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /> <meta http-equiv="Pragma" content="no-cache" />  <meta http-equiv="Expires" content="-1" /></head>
+<html> <head> <title>DeFiMinds</title> <meta charset="utf-8" /> <meta name="viewport" content="width=100%, height=100%, initial-scale=1" /> <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /> <meta http-equiv="Pragma" content="no-cache" />  <meta http-equiv="Expires" content="-1" /></head>
 <link rel="stylesheet" href="/portal/css/index.css"> <body> <hr/>
 <a href="https://defiminds.github.io/portal/room.html">           <button>Room</button> </a>
 <a href="https://defiminds.github.io/portal/room2.html">          <button>Room 2</button> </a>
 <a href="https://defiminds.github.io/portal/analyze.html">        <button>Analyze</button> </a>
 <a href="https://defiminds.github.io/portal/gmarket.html">        <button>General Market</button> </a>
 <a href="https://defiminds.github.io/portal/social.html">         <button>Social</button> </a>
-<a href="https://defiminds.github.io/pgp/">                     <button>PGP-Suite</button> </a>
+<a href="https://defiminds.github.io/pgp/">                       <button>PGP-Suite</button> </a>
 <a href="https://defiminds.github.io/portal/edu.html">            <button>Education</button> </a>
 <a href="https://defiminds.github.io/portal/charts.html">         <button>Charts</button> </a>
-                                                                <button onclick="lights()">Lights</button>
-<hr/> <script type="application/javascript" src="/portal/js/lights.js"></script> </body> </html>
+                                                                  <button onclick="lights()">Lights</button><hr/>
+  
+<div class="container"> <div class="resizable" id="chart1" style="width: 1034px; height: 525px; top: 110px; left: 78px;">
+<div id="tradingview_92708-wrapper" style="position: relative;box-sizing: content-box;width: 100%;height: 100%;margin: 0 auto !important;padding: 0 !important;font-family: -apple-system, BlinkMacSystemFont, 'Trebuchet MS', Roboto, Ubuntu, sans-serif;"><div style="width: 100%;height: 100%;background: transparent;padding: 0 !important;"><iframe id="tradingview_92708" src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_92708&amp;symbol=BINANCE%3ABTCUSDT&amp;interval=1&amp;hidesidetoolbar=0&amp;symboledit=1&amp;saveimage=0&amp;toolbarbg=f1f3f6&amp;studies=Volume%40tv-basicstudies%1FMAVolumeWeighted%40tv-basicstudies&amp;theme=dark&amp;style=0&amp;timezone=exchange&amp;studies_overrides=%7B%7D&amp;overrides=%7B%7D&amp;enabled_features=%5B%5D&amp;disabled_features=%5B%5D&amp;locale=en&amp;utm_source=defiminds.github.io&amp;utm_medium=widget&amp;utm_campaign=chart&amp;utm_term=BINANCE%3ABTCUSDT" style="width: 100%; height: 100%; margin: 0 !important; padding: 0 !important;" allowtransparency="true" scrolling="no" allowfullscreen="" frameborder="0"></iframe></div></div>
+<div class="resizer resizer-r"></div> <div class="resizer resizer-b"></div> </div> </div>
+  
+<script type="application/javascript" src="/portal/js/lights.js"></script>
+<script type="application/javascript" src="/portal/js/index/move.js"></script>
+<script type="application/javascript" src="/portal/js/index/elements.js"></script>
+</body></html>
