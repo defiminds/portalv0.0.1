@@ -4,6 +4,7 @@
   color: white;
 }
 .light-mode {
+ background-image: url('defiminds.png');
  background-color: white;
  color: black;
 }
