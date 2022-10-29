@@ -1,10 +1,18 @@
  body {
-  background-color: black;
   background-image: url('defiminds.jpeg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
   color: white;
 }
 .light-mode {
  background-image: url('defiminds.png');
+ height: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
  background-color: white;
  color: black;
 }
