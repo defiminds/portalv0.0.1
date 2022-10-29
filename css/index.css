@@ -1,8 +1,10 @@
  body {
+  background-image: url('defiminds.jpeg');
   background-color: black;
   color: white;
 }
 .light-mode {
+ background-image: url('defiminds.png');
  background-color: white;
  color: black;
 }
