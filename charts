@@ -1,6 +1,6 @@
 <!DOCTYPE html> <html> <title>Charts</title> <head> <meta charset="utf-8" /> <meta name="viewport" content="width=100%, height=100%, initial-scale=1" /> <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /> <meta http-equiv="Pragma" content="no-cache" /> <meta http-equiv="Expires" content="-1" />
 <link rel="stylesheet" href="./css/charts.css"> </head> <body> <hr/>
-<a href="https://defiminds.github.io/portal/">                                    <button>Home</button> </a>
+<a href="https://defiminds.github.io/portal/">                                    <button>Portal</button> </a>
 <button onclick="onelement1()">Liquidations 7Day</button>
 <button onclick="onelement2()">| 15Day</button>
 <button onclick="onelement3()">| 30Day</button>
