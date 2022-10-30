@@ -9,9 +9,9 @@
 <button onclick="onelement5()">BTN</button>
 <button onclick="onelement6()">BTN</button>
 <button onclick="onelement7()">BTN</button>  
-<a href="https://defiminds.github.io/home/">                <button>Home</button> </a>
-<a href="https://defiminds.github.io/home/social.html">     <button>Social</button> </a>
-<a href="https://defiminds.github.io/home/analyze.html">    <button>Analyze</button> </a>
+<a href="https://defiminds.github.io/portal/">                <button>Home</button> </a>
+<a href="https://defiminds.github.io/portal/social">     <button>Social</button> </a>
+<a href="https://defiminds.github.io/portal/analyze">    <button>Analyze</button> </a>
                                                             <button onclick="lights()">Lights</button>
 <script type="application/javascript" src="./js/commodities/elements.js"> </script> <hr/> </head> <body>
 
