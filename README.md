@@ -9,3 +9,5 @@ The Public is to general use; Study,Trading,Viwew.
 The Portal is the door of the private layer, containing private p2p chat 24/7, strategy sharing, weekly layouts, signals, p2p services.
 
 The code is clean and simple, have the possibility to you run directly in your backend with TOR, to increase your privacy/security and acess private layers.
+
+Portal - 🗺 | ₿itcoin - ₿ | Ξthereum - Ξ | Study - 🕮 | Commodities - 💎 | G Market - ⚖️ | Analyze - 📊 | Charts - 📈 | Social - 🗣 | Lights - 💡
