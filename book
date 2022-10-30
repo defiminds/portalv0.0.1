@@ -4,7 +4,6 @@
 <button onclick="onelement1()">Book</button>
 <script type="application/javascript" src="./js/book/elements.js"></script>
 <div class="containerchart1"> <div class="resizable" id="chart1">
-
 <div class="resizer resizer-r"></div> <div class="resizer resizer-b"></div> </div> </div>
 <script type="application/javascript" src="./js/book/move.js"></script>
 <script type="application/javascript" src="./js/book/resize.js"></script>
