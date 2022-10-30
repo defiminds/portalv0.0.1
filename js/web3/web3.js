@@ -178,7 +178,6 @@ const loginWithEth = async () => {
 // 6. when the user clicks the login button run the loginWithEth function
 document.querySelector(".login-btn").addEventListener("click", loginWithEth);
 
-
 // function to show the user dashboard
 const showUserDashboard = async () => {
 
@@ -209,32 +208,12 @@ const showUserDashboard = async () => {
 
   // show the user's wallet address
   showUserWalletAddress();
-
-  // get the user's wallet balance
-  getWalletBalance();
 };
 
 // show the user's wallet address from the global userWalletAddress variable
 const showUserWalletAddress = () => {
   const walletAddressEl = document.querySelector(".wallet-address");
   walletAddressEl.innerHTML = window.userWalletAddress;
-};
-
-// get the user's wallet balance
-const getWalletBalance = async () => {
-  // check if there is global userWalletAddress variable
-  if (!window.userWalletAddress) {
-    return false;
-  }
-
-  // get the user's wallet balance
-  const balance = await window.web3.eth.getBalance(window.userWalletAddress);
-
-  // convert the balance to ether
-  document.querySelector(".wallet-balance").innerHTML = web3.utils.fromWei(
-    balance,
-    "ether"
-  );
 };
 
 // web3 logout function
