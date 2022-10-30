@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html> <title>DeFiMinds</title> <head> <meta charset="utf-8" /> <meta name="viewport" content="width=100%, height=100%, initial-scale=1" /> <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /> <meta http-equiv="Pragma" content="no-cache" /> <meta http-equiv="Expires" content="-1" /> 
 <link rel="stylesheet" href="./css/edu.css"> <body> <hr/>
-<a href="https://defiminds.github.io/portal/">                <button>Home</button> </a>
-<a href="https://defiminds.github.io/portal/₿">       <button>Room</button> </a>
+<a href="https://defiminds.github.io/portal/">                <button>Portal</button> </a>
+<a href="https://defiminds.github.io/portal/₿">       <button>₿</button> </a>
 <a href="https://defiminds.github.io/portal/analyze">    <button>Analyze</button> </a>
 <a href="https://defiminds.github.io/portal/gmarket">    <button>General Market</button> </a>
 <a href="https://defiminds.github.io/portal/social">     <button>Social</button> </a>
