@@ -9,13 +9,33 @@
 <a href="https://defiminds.github.io/pgp/">                       <button>PGP-Suite</button> </a>
 <a href="https://defiminds.github.io/portal/edu.html">            <button>Education</button> </a>
 <a href="https://defiminds.github.io/portal/charts.html">         <button>Charts</button> </a>
-                                                                  <button onclick="lights()">Lights</button><hr/>
-  
-<div class="container"> <div class="resizable" id="chart1" style="width: 1034px; height: 525px; top: 110px; left: 78px;">
-<iframe frameborder="0" style="width:100%;height:738px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Untitled%20Diagram.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdefiminds%2Fportal%2Fmain%2Fcss%2FUntitled%2520Diagram.drawio"></iframe>
+                                                                  <button onclick="lights()">Lights</button>
+
+<div class="container"> <div class="resizable" id="chart1" style="width: 777px; height: 234px; top: 190px; left: 236px;">
+    <!-- LOGIN SECTION -->
+    <section class="login-section">
+      <button class="login-btn">🔓 Auth Web3</button>
+        <span class="wallet-balance">Create one key to make your first auth.</span>
+    </section>
+    <!-- DASHBOARD SECTION -->
+    <section class="dashboard-section">
+      <h2 class="wallet-status">  Authenticated! 🤝</h2>
+      <h3 class="wallet-address-heading">
+        Authentication Address: <span class="wallet-address"></span>
+      </h3>
+      <h3 class="wallet-balance-heading">
+       ETH Balance: <span class="wallet-balance"></span>
+      </h3>
+      <button class="logout-btn">🔐 Log out</button>
+    </section>
+	
 <div class="resizer resizer-r"></div> <div class="resizer resizer-b"></div> </div> </div>
-  
 <script type="application/javascript" src="./js/lights.js"></script>
-<script type="application/javascript" src="./js/index/move.js"></script>
-<script type="application/javascript" src="./js/index/elements.js"></script>
+<script type="application/javascript" src="./js/web3/web3.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/web3/4.0.1-alpha.0/web3.min.js" integrity="sha512-veBXf6LqvBEcAM+5ZPZSioRPyyz8tgeVWco7d2ILjidNfgkMcuAv6wqhKX7wasT8RNcl7xysx1+tbA9ssGbZrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/web3/4.0.1-alpha.0/abi.min.js" integrity="sha512-Jb4bufzOdt5OAxMBX2pqjUFFU9a1L7Rwi+UPgRBcVmS4yc6GpifGzi8CVomka/Yj8kJdFaPCMw5DhudSwVeYzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/web3/4.0.1-alpha.0/accounts.min.js" integrity="sha512-FEDrCj4SEF3Kzv32lymnWlC8nAEiOVksSzACzu98xTV/7Ihc8DviyUzxBVpXTlW/D/oEaykiqb5FG2MOp0Usjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/web3/4.0.1-alpha.0/index.min.js" integrity="sha512-OWkgs5/peSXRewFLKqcM8ENS84B/QxjzDUlQo3FdVI7us2XEmN3KzwajNpgYl8y32J98Hrrf4rQeeUffjlHm5A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/web3/4.0.1-alpha.0/types.min.js" integrity="sha512-XJSPoSY+SSpL9dbI4rgX7E3PEkwS+0mTkuu3Uf1iQ1hBem75kVb/0Uh/x733rAd8CNanhDeM+yOelo90XkHCvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/web3/4.0.1-alpha.0/version.min.js" integrity="sha512-GsxvW5nyAi5naODUr3Tm0jleeRivCKLnxDnXdOUR42v41OUNlGzB8fjl3jlLArI8G/O0Ij+2Qm7NCXwcgxyTXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body></html>
